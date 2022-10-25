@@ -6,7 +6,7 @@
 #    By: nicky <nicky@student.codam.nl>               +#+                      #
 #                                                    +#+                       #
 #    Created: 2021/11/06 13:41:49 by nicky         #+#    #+#                  #
-#    Updated: 2022/03/01 13:46:10 by nduijf        ########   odam.nl          #
+#    Updated: 2022/10/25 17:34:50 by nduijf        ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRCS = 			main.c		\
 OBJS			= $(SRCS:.c=.o)
 OBJ_DIR			= ./obj/
 INCL_DIR		= ./includes/
-CFLAGS			= -g -Wall -Wextra -Werror -I${INCL_DIR} -fsanitize=thread
+CFLAGS			= -Wall -Wextra -Werror -I${INCL_DIR}
 CC				= gcc
 
 all:	$(NAME)
